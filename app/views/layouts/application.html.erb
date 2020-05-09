@@ -3,7 +3,16 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>TODO</title>
+
+     <!-- Facebook Open Graph data -->
+    <meta property="og:title" content="<%= "Marion HENRIO & Gauthier TATON, developpeurs Web Full stack | Ruby on rails | Freelance" %>" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="<%= "" %>" />
+    <meta property="og:image" content="<%= "" %>" />
+    <meta property="og:description" content="<%= "Duo de developpeurs Web Full stack | Ruby on rails | Freelance" %>" />
+    <meta property="og:site_name" content="<%= "M&G Développement" %>" />
+    <%= favicon_link_tag '' %>
+    <title>M&G Développeurs fullstack</title>
     <%= csrf_meta_tags %>
     <%= action_cable_meta_tag %>
     <%= stylesheet_link_tag 'application', media: 'all' %>
@@ -16,3 +25,5 @@
     <%= javascript_pack_tag 'application' %>
   </body>
 </html>
+
+
