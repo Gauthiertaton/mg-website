@@ -1,6 +1,6 @@
-<%= render 'shared/navbar'%>
 
-<div class="container_home">
+<%= render 'shared/navbar'%>
+<div class="container-expand-sm">
   <div class="banner_home">
     <div class=banner_title>
       <h1>Duo de développeurs fullstack</h1>
@@ -13,7 +13,7 @@
       <a class="btn btn-ghost" href="#">Découvrir</a>
     </div>
   </div>
-  <div class=container_elements>
+  <div class=container_elements-expand-sm>
     <div class="notre_duo">
       <div class="notre_duo_title">
         <h2>NOTRE DUO</h2>
@@ -46,6 +46,9 @@
       <div class="cards_presentation d-flex">
         <div class="card_marion">
           <div class="card_marion_name_job">
+            <div class="card_marion_photo">
+              <%= image_tag("marion.png", size: "130x100", alt: "marionhenrio") %>
+            </div>
             <h3>Marion HENRIO</h3>
             <p>Conceptrice et développeuse fullstack</p>
             <p>Spécialité : le Front-end & l’UI / Gestion de projet</p>
@@ -59,6 +62,9 @@
           </div>
         </div>
         <div class="card_gauthier">
+          <div class="card_gauthier_photo">
+              <%= image_tag("gauthier.png", size: "130x110", alt: "gauthiertaton") %>
+            </div>
           <div class="card_gauthier_name_job">
             <h3>Gauthier TATON</h3>
             <p>Concepteur et développeur fullstack</p>
@@ -78,7 +84,13 @@
           <h3>Notre stack technique</h3>
         </div>
         <div class="stack_technique_img">
-          <img src="" alt="">
+          <%= image_tag("ror.jpeg", size: "50x50", alt: "ror") %>
+          <%= image_tag("html5.jpeg", size: "50x50", alt: "html5") %>
+          <%= image_tag("css3.jpeg", size: "50x50", alt: "css3") %>
+          <%= image_tag("javascript.png", size: "50x50", alt: "javascript") %>
+          <%= image_tag("jquery.jpeg", size: "80x50", alt: "jquery") %>
+          <%= image_tag("mysql.jpeg", size: "50x50", alt: "mysql") %>
+          <%= image_tag("gitgithub.jpeg", size: "120x70", alt: "git_github") %>
         </div>
       </div>
     </div>
@@ -89,7 +101,7 @@
       <div class="cards_nos_services_1">
         <div class="card_accompagnement_et_conseils">
           <div class="card_accompagnement_et_conseils_img">
-            <img src="" alt="">
+            <%= image_tag("conseils.png", size: "70x70", alt: "conseils") %>
           </div>
           <div class="card_accompagnement_et_conseils_title">
             <h3>ACCOMPAGNEMENT ET CONSEILS</h3>
@@ -98,7 +110,7 @@
         </div>
         <div class="card_uxui">
           <div class="card_uxui_img">
-            <img src="" alt="">
+            <%= image_tag("ux.png", size: "70x70", alt: "ux") %>
           </div>
           <div class="card_uxui_title">
             <h3>UX/UI</h3>
@@ -108,7 +120,7 @@
         </div>
         <div class="card_maquettage">
           <div class="card_maquettage_img">
-            <img src="" alt="">
+            <%= image_tag("wireframe.png", size: "70x70", alt: "wireframe") %>
           </div>
           <div class="card_maquettage_title">
             <h3>MAQUETTAGE</h3>
@@ -119,7 +131,7 @@
       <div class="cards_nos_services_2">
         <div class="card_developpement">
           <div class="card_developpement_img">
-            <img src="" alt="">
+            <%= image_tag("code.png", size: "70x70", alt: "code") %>
           </div>
           <div class="card_developpement_title">
             <h3>DEVELOPPEMENT</h3>
@@ -128,7 +140,7 @@
         </div>
         <div class="card_referencement">
           <div class="card_referencement_img">
-            <img src="" alt="">
+            <%= image_tag("seo.png", size: "70x70", alt: "seo") %>
           </div>
           <div class="card_referencement_title">
             <h3>REFERENCEMENT</h3>
@@ -137,7 +149,7 @@
         </div>
         <div class="card_analytics">
           <div class="card_analytics_img">
-            <img src="" alt="">
+            <%= image_tag("analytics.png", size: "70x70", alt: "analytics") %>
           </div>
           <div class="card_analytics_title">
             <h3>ANALYTICS</h3>
@@ -145,12 +157,12 @@
           </div>
         </div>
       </div>
+    </div>
     <div class="nos_realisations">
       <div class="nos_realisations_title">
         <h2>NOS REALISATIONS</h2>
       </div>
-      <div class="cards_projets">
-      </div>
+      <div class="cards_projets"></div>
     </div>
     <div class="contact_form">
       <div class="contact_form_title_text">
