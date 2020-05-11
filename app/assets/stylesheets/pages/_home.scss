@@ -1,5 +1,133 @@
+//General
+
+.container_elements{
+  padding-left: 50px;
+  padding-right: 100px;
+}
+
+.button {
+  padding-left: 20px;
+}
+.btn-ghost {
+  color: #4A4A4A;
+  border: 1px solid #4A4A4A;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: lighter;
+  opacity: 0.6;
+  transition: opacity 0.3s ease;
+}
+
+.btn-ghost:hover {
+  opacity: 1;
+}
+
+h2 {
+  color: #47939B;
+}
+
+h3 {
+  color: #47939B;
+  font-size: 20px;
+}
+
+// partie 1
+
 .banner_home {
-background-color: #50AFBA;
-opacity: 40%;
-height: 400px;
+  background-color: #50AFBA;
+  background-opacity: 40%;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+
+}
+
+.banner_title {
+  padding-top: 70px;
+  padding-left: 20px;
+}
+
+.banner_title h1 {
+  color: white;
+}
+
+.banner_title h2 {
+  color: white;
+  font-size: 25px;
+}
+
+// partie 2
+
+.notre_duo {
+  padding-top: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+
+
+// partie 3
+
+.presentation{
+  padding-top: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+
+.cards_presentation{
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.card_marion{
+  width: 450px;
+}
+
+.card_gauthier{
+  width: 450px;
+}
+
+//partie 4
+
+.nos_services{
+  padding-top: 30px;
+  width: 100vw;
+  height: 100vh;
+    h3, p {
+      text-align: center;
+    }
+}
+
+.cards_nos_services_1 {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.cards_nos_services_2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card_uxui, .card_maquettage, .card_accompagnement_et_conseils {
+  width: 350px;
+}
+
+.card_developpement, .card_analytics, .card_referencement {
+  width: 350px;
+}
+
+//partie 5
+
+.nos_realisations{
+  padding-top: 30px;
+  width: 100vw;
+  height: 100vh;
+}
+
+//partie 6
+
+.contact_form{
+  padding-top: 30px;
+  width: 100vw;
+  height: 100vh;
 }
