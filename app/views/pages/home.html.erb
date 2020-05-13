@@ -2,32 +2,36 @@
 <%= render 'shared/navbar'%>
 <div class="container-expand-sm">
   <div class="banner_home">
-    <div class=banner_title>
-      <h1>Duo de développeurs fullstack</h1>
-      <h2>Ensemble, conçevons votre produit web 🚀</h2>
+    <div class="banner_title_photo">
+      <div class=banner_title>
+        <h1>Duo de développeurs fullstack</h1>
+        <h2>Ensemble, conçevons votre produit web 🚀</h2>
+      </div>
+      <div class="banner_photo">
+        <%= image_tag("banner_marion_gauthier.jpg", size: "800x547", alt: "marion_gauthier") %>
+      </div>
     </div>
-    <div class="banner_photo">
-      <img src="" alt="">
-    </div>
-    <div class="button">
-      <a class="btn btn-ghost" href="#">Découvrir</a>
+    <div class="button_banner">
+      <a class="btn btn-ghost" href="#notre_duo">Découvrir</a>
     </div>
   </div>
   <div class=container_elements-expand-sm>
-    <div class="notre_duo">
+    <div id="notre_duo">
       <div class="notre_duo_title">
         <h2>NOTRE DUO</h2>
       </div>
-      <div class="notre_duo_texte">
-        <p>Duo dans la vie, nous le sommes également professionnellement : nous unissons nos compétences pour accompagner les entreprises, institutions ou porteurs de projets, dans la conception de leur produit web. Nous conçevons et développons :
-        - des prototypes d’applications
-        - des sites
-        - des applications web
-        Les compétences en logique et algorithmie de Gauthier le destine au Back-end. L’esprit créatif de Marion et sa maitrise des outils UI la spécialisent dans le front-end.  Notre vision business commune, nous permet d’être efficaces et totalement alignés, pour vous garantir un projet totalement adéquat vos attentes.
-        </p>
-      </div>
-      <div class="notre_duo_photo">
-        <img src="" alt="">
+      <div class="notre_duo_texte_photo d-flex">
+        <div class="notre_duo_photo">
+          <%= image_tag("notre_duo.jpg", size: "500x347", alt: "notre_duo") %>
+        </div>
+        <div class="notre_duo_texte">
+          <p>Duo dans la vie, nous le sommes également professionnellement : nous unissons nos compétences pour accompagner les entreprises, institutions ou porteurs de projets, dans la conception de leur produit web. Nous conçevons et développons :
+          - des prototypes d’applications
+          - des sites
+          - des applications web
+          Les compétences en logique et algorithmie de Gauthier le destine au Back-end. L’esprit créatif de Marion et sa maitrise des outils UI la spécialisent dans le front-end.  Notre vision business commune, nous permet d’être efficaces et totalement alignés, pour vous garantir un projet totalement adéquat vos attentes.
+          </p>
+        </div>
       </div>
       <div class="notre_demarche">
         <h3>NOTRE DEMARCHE</h3>
@@ -39,7 +43,7 @@
         <p>Disponibilité, écoute, communication et transparence. Le tout avec enthousiasme :) </p>
       </div>
     </div>
-    <div class="presentation">
+    <div id="presentation">
       <div class="presentation_title">
         <h2>ENVIE DE NOUS CONNAITRE UN PEU PLUS ?</h2>
       </div>
@@ -63,8 +67,8 @@
         </div>
         <div class="card_gauthier">
           <div class="card_gauthier_photo">
-              <%= image_tag("gauthier.png", size: "130x110", alt: "gauthiertaton") %>
-            </div>
+            <%= image_tag("gauthier.png", size: "130x110", alt: "gauthiertaton") %>
+          </div>
           <div class="card_gauthier_name_job">
             <h3>Gauthier TATON</h3>
             <p>Concepteur et développeur fullstack</p>
@@ -94,7 +98,7 @@
         </div>
       </div>
     </div>
-    <div class="nos_services">
+    <div id="nos_services">
       <div class="nos_services_title">
         <h2>NOS SERVICES</h2>
       </div>
@@ -158,16 +162,27 @@
         </div>
       </div>
     </div>
-    <div class="nos_realisations">
+    <div id="nos_realisations">
       <div class="nos_realisations_title">
         <h2>NOS REALISATIONS</h2>
       </div>
       <div class="cards_projets"></div>
     </div>
-    <div class="contact_form">
+    <div id="contact_form">
       <div class="contact_form_title_text">
         <h2>UN PROJET ? Contactez-nous !</h2>
         <p>Décrivez nous votre besoin, et nous vous recontacterons très vite par mail ou par téléphone. Nous avons déja hâte de faire votre connaissance et de collaborer avec vous !</p>
+      </div>
+      <div class="contact_form_area">
+        <div class="contact_form_marion">
+        <p>✉️ mg-developpeurs@gmail.com</p>
+        <p>📞 Marion - 06.59.80.47.38</p>
+        </div>
+        <div class="contact_form_marion">
+        <p>📞 Gauthier - 06.02.02.02.02</p>
+        </div>
+        <p>📍 Camp de base : Nantes.</p>
+        <p>Rayonnement géographique : everywhere</p>
       </div>
     </div>
   </div>
