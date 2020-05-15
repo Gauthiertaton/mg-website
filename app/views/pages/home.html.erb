@@ -6,37 +6,41 @@
       <div class=banner_title>
         <h1>Duo de développeurs fullstack</h1>
         <h2>Ensemble, conçevons votre produit web 🚀</h2>
+        <div class="button_banner">
+          <a class="btn btn-ghost" href="#notre_duo">Découvrir</a>
+        </div>
       </div>
       <div class="banner_photo">
-        <%= image_tag("banner_marion_gauthier.jpg", size: "800x547", alt: "marion_gauthier") %>
+        <%= image_tag("banner_marion_gauthier.jpg", size: "800x596", alt: "marion_gauthier") %>
       </div>
     </div>
-    <div class="button_banner">
-      <a class="btn btn-ghost" href="#notre_duo">Découvrir</a>
-    </div>
+
   </div>
   <div class=container_elements-expand-sm>
     <div id="notre_duo">
       <div class="notre_duo_title">
-        <h2>NOTRE DUO</h2>
+        <h2><span>Notre duo</h2></span>
       </div>
       <div class="notre_duo_texte_photo d-flex">
         <div class="notre_duo_photo">
           <%= image_tag("notre_duo.jpg", size: "500x347", alt: "notre_duo") %>
         </div>
         <div class="notre_duo_texte">
-          <p>Duo dans la vie, nous le sommes également professionnellement : nous unissons nos compétences pour accompagner les entreprises, institutions ou porteurs de projets, dans la conception de leur produit web. Nous conçevons et développons :
-          - des prototypes d’applications
-          - des sites
-          - des applications web
-          Les compétences en logique et algorithmie de Gauthier le destine au Back-end. L’esprit créatif de Marion et sa maitrise des outils UI la spécialisent dans le front-end.  Notre vision business commune, nous permet d’être efficaces et totalement alignés, pour vous garantir un projet totalement adéquat vos attentes.
-          </p>
+          <p>Duo dans la vie, nous le sommes également professionnellement : nous unissons nos compétences pour accompagner les entreprises, institutions ou porteurs de projets, dans la conception de leur produit web.
+          Nous conçevons et développons :</p>
+          <ul>
+          <li>des prototypes d’applications</li>
+          <li>des sites</li>
+          <li>des applications web</li>
+          </ul>
+          <p>Les compétences en logique et algorithmie de Gauthier le destine au Back-end. L’esprit créatif de Marion et sa maitrise des outils UI la spécialisent dans le front-end.  Notre vision business commune, nous permet d’être efficaces et totalement alignés, pour vous garantir un projet totalement adéquat vos attentes.</p>
         </div>
       </div>
       <div class="notre_demarche">
         <h3>NOTRE DEMARCHE</h3>
-        <p> - Etablir un cachier des charges précis (besoins, environnement professionnels, attentes, budget)
-         - Concevoir votre projet en adéquation</p>
+        <ul>
+        <li>Etablir un cachier des charges précis (besoins, environnement professionnels, attentes, budget)</li>
+         <li>Concevoir votre projet en adéquation</li>
       </div>
       <div class="nos_atouts">
         <h3>NOS ATOUTS</h3>
@@ -45,7 +49,7 @@
     </div>
     <div id="presentation">
       <div class="presentation_title">
-        <h2>ENVIE DE NOUS CONNAITRE UN PEU PLUS ?</h2>
+        <h2><span>Nos compétences</span></h2>
       </div>
       <div class="cards_presentation d-flex">
         <div class="card_marion">
@@ -54,8 +58,8 @@
               <%= image_tag("marion.png", size: "130x100", alt: "marionhenrio") %>
             </div>
             <h3>Marion HENRIO</h3>
-            <p>Conceptrice et développeuse fullstack</p>
-            <p>Spécialité : le Front-end & l’UI / Gestion de projet</p>
+            <h4>Conceptrice et développeuse fullstack</h4>
+            <h4><strong>Spécialité : </strong> le Front-end & l’UI / Gestion de projet</h4>
           </div>
           <div class="card_marion_quote">
             <p>“Initialement Chef de Projet Innovation Digitale dans de grands groupes du luxe, j’ai décidé de monter en compétences techniques en apprenant à coder.
@@ -71,8 +75,8 @@
           </div>
           <div class="card_gauthier_name_job">
             <h3>Gauthier TATON</h3>
-            <p>Concepteur et développeur fullstack</p>
-            <p>Spécialité : le Back-end</p>
+            <h4>Concepteur et développeur fullstack</h4>
+            <h4><strong>Spécialité : </strong>le Back-end</h4>
           </div>
           <div class="card_gauthier_quote">
             <p>“D’abord Responsable logistique dans les secteurs du Retail et du E-commerce, j’ai décidé de me reconvertir en tant que développeur.
@@ -100,12 +104,12 @@
     </div>
     <div id="nos_services">
       <div class="nos_services_title">
-        <h2>NOS SERVICES</h2>
+        <h2><span>Nos services</span></h2>
       </div>
       <div class="cards_nos_services_1">
         <div class="card_accompagnement_et_conseils">
           <div class="card_accompagnement_et_conseils_img">
-            <%= image_tag("conseils.png", size: "70x70", alt: "conseils") %>
+            <%= image_tag("conseils.png", size: "50x50", alt: "conseils") %>
           </div>
           <div class="card_accompagnement_et_conseils_title">
             <h3>ACCOMPAGNEMENT ET CONSEILS</h3>
@@ -114,7 +118,7 @@
         </div>
         <div class="card_uxui">
           <div class="card_uxui_img">
-            <%= image_tag("ux.png", size: "70x70", alt: "ux") %>
+            <%= image_tag("ux.png", size: "50x50", alt: "ux") %>
           </div>
           <div class="card_uxui_title">
             <h3>UX/UI</h3>
@@ -124,7 +128,7 @@
         </div>
         <div class="card_maquettage">
           <div class="card_maquettage_img">
-            <%= image_tag("wireframe.png", size: "70x70", alt: "wireframe") %>
+            <%= image_tag("wireframe.png", size: "50x50", alt: "wireframe") %>
           </div>
           <div class="card_maquettage_title">
             <h3>MAQUETTAGE</h3>
@@ -135,7 +139,7 @@
       <div class="cards_nos_services_2">
         <div class="card_developpement">
           <div class="card_developpement_img">
-            <%= image_tag("code.png", size: "70x70", alt: "code") %>
+            <%= image_tag("code.png", size: "50x50", alt: "code") %>
           </div>
           <div class="card_developpement_title">
             <h3>DEVELOPPEMENT</h3>
@@ -144,7 +148,7 @@
         </div>
         <div class="card_referencement">
           <div class="card_referencement_img">
-            <%= image_tag("seo.png", size: "70x70", alt: "seo") %>
+            <%= image_tag("seo.png", size: "50x50", alt: "seo") %>
           </div>
           <div class="card_referencement_title">
             <h3>REFERENCEMENT</h3>
@@ -153,7 +157,7 @@
         </div>
         <div class="card_analytics">
           <div class="card_analytics_img">
-            <%= image_tag("analytics.png", size: "70x70", alt: "analytics") %>
+            <%= image_tag("analytics.png", size: "50x50", alt: "analytics") %>
           </div>
           <div class="card_analytics_title">
             <h3>ANALYTICS</h3>
@@ -164,23 +168,47 @@
     </div>
     <div id="nos_realisations">
       <div class="nos_realisations_title">
-        <h2>NOS REALISATIONS</h2>
+        <h2><span>Nos réalisations</span></h2>
       </div>
-      <div class="cards_projets"></div>
+      <div class="cards_projets">
+        <div class="card-trip">
+          <%= image_tag("lesf.png", size: "50x50", alt: "wireframe") %>
+          <div class="card-trip-infos">
+            <div>
+              <h2>Les Enfants sont formidables</h2>
+              <p>Modification du site (CMS Shopify) afin d’ajouter des fonctionnalités front et des API.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card-trip">
+          <%= image_tag("lesf.png", size: "50x50", alt: "wireframe") %>
+          <div class="card-trip-infos">
+            <div>
+              <h2>Foodzzz</h2>
+              <p>Projet d’application à destination des employés de la restauration rapide + backoffice pour l’employeur.</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <div id="contact_form">
+      <h2><span>Un projet ? Contactez-nous !</span></h2>
       <div class="contact_form_title_text">
-        <h2>UN PROJET ? Contactez-nous !</h2>
         <p>Décrivez nous votre besoin, et nous vous recontacterons très vite par mail ou par téléphone. Nous avons déja hâte de faire votre connaissance et de collaborer avec vous !</p>
       </div>
       <div class="contact_form_area">
         <div class="contact_form_marion">
-        <p>✉️ mg-developpeurs@gmail.com</p>
-        <p>📞 Marion - 06.59.80.47.38</p>
+          <h5>👩🏽‍💻</h5>
+          <p>✉️ marion.henrio@hotmail.fr</p>
+          <p>📞 06.59.80.47.38</p>
         </div>
-        <div class="contact_form_marion">
-        <p>📞 Gauthier - 06.02.02.02.02</p>
+        <div class="contact_form_gauthier">
+          <h5>👨🏽‍💻</h5>
+          <p>✉️ gauthier_taton@yahoo.fr</p>
+          <p>📞 06.02.02.02.02</p>
         </div>
+      </div>
+      <div class= "localisation">
         <p>📍 Camp de base : Nantes.</p>
         <p>Rayonnement géographique : everywhere</p>
       </div>
