@@ -1,65 +1,49 @@
 .banner_marion{
   display: flex;
-  padding-top: 100px;
-  width: 50%;
+  padding-top: 150px;
+  width: 80%;
+  padding-left: 200px;
 
 }
 
 .banner_marion_title {
-  padding-left: 20px;
+  padding-left: 30px;
 
 }
 
 .mon_parcours_marion{
-  height: 1200px;
+  height: 1300px;
+  padding-top: 50px;
+  padding-left: 20px;
+      h4{
+        font-size: 20px;
+        font-weight: bold;
+      }
 }
-// .years {
-//   display: flex;
-//   padding-left: 10%;
-//   // align-items:center;
-//   // justify-content: center;
-// }
 
-// .frise {
-//   position: relative;
-//   border-left: 1px solid #000;
-//   margin-left: 10%;
-// }
-
-// .dot {
-//   position: absolute;
-//   top: 50%;
-//   left: -5px;
-//   width: 10px;
-//   height: 10px;
-//   border-radius: 50%;
-//   background-color: rgb(80,80,80);
-// }
-
-// .experiences {
-//   // display: flex;
-//   // align-items:center;
-//   // justify-content: center;
-//   padding-left: 20px;
-//   padding-right: 80px;
-
-// }
 
 .timeline {
     position: relative;
-    padding: 0;
+    padding-top: 70px;
     list-style: none;
 }
+
+.timeline li {
+  padding-bottom: 0px;
+}
+
+// ligne de la timeline
 
 .timeline:before {
     content: "";
     position: absolute;
-    top: 0;
-    bottom: 0;
+    // top: 0;
+    // bottom: 0;
     left: 40px;
     width: 2px;
-    margin-left: -1.5px;
+    margin-left: 5px;
     background-color: #f1f1f1;
+    height: 1000px;
 }
 
 .timeline>li {
@@ -67,99 +51,103 @@
     min-height: 140px;
 }
 
-.timeline>li:before,
-.timeline>li:after {
-    content: " ";
-    display: table;
-}
+// .timeline>li:before,
+// .timeline>li:after {
+//     content: " ";
+//     display: table;
+// }
 
-.timeline>li:after {
-    clear: both;
-}
+// .timeline>li:after {
+//     clear: both;
+// }
 
-.timeline>li .timeline-panel {
-    float: right;
-    position: relative;
-    width: 100%;
-    padding: 0 20px 0 100px;
-    text-align: left;
-}
+// .timeline>li .timeline-panel {
+//     float: right;
+//     position: relative;
+//     width: 100%;
+//     padding: 0 20px 0 100px;
+//     text-align: left;
+// }
 
-.timeline>li .timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
+// .timeline>li .timeline-panel:before {
+//     right: auto;
+//     left: -15px;
+//     border-right-width: 15px;
+//     border-left-width: 0;
+// }
 
-.timeline>li .timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
+// .timeline>li .timeline-panel:after {
+//     right: auto;
+//     left: -14px;
+//     border-right-width: 14px;
+//     border-left-width: 0;
+// }
 
 .timeline>li .timeline-image {
     z-index: 100;
     position: absolute;
     left: 0;
-    width: 60px;
-    height: 60px;
+    // width: 50px;
+    // height: 50px;
     margin-left: 0;
-    border: 7px solid #f1f1f1;
+    border: 5px solid #f1f1f1;
     border-radius: 100%;
     text-align: center;
     color: #fff;
-    background-color: #1ee2e7;
 }
 
-.timeline>li .timeline-image h4 {
-    margin-top: 12px;
-    font-size: 10px;
-    line-height: 14px;
+.timeline-image img {
+    border-radius: 50%;
+
 }
 
-.timeline>li.timeline-inverted>.timeline-panel {
-    float: right;
-    padding: 0 20px 0 20px;
-    text-align: left;
-}
+// .timeline>li .timeline-image h4 {
+//     margin-top: 12px;
+//     font-size: 10px;
+//     line-height: 14px;
+// }
 
-.timeline>li.timeline-inverted>.timeline-panel:before {
-    right: auto;
-    left: -15px;
-    border-right-width: 15px;
-    border-left-width: 0;
-}
+// .timeline>li.timeline-inverted>.timeline-panel {
+//     float: right;
+//     padding: 0 20px 0 20px;
+//     text-align: left;
+// }
 
-.timeline>li.timeline-inverted>.timeline-panel:after {
-    right: auto;
-    left: -14px;
-    border-right-width: 14px;
-    border-left-width: 0;
-}
+// .timeline>li.timeline-inverted>.timeline-panel:before {
+//     right: auto;
+//     left: -15px;
+//     border-right-width: 15px;
+//     border-left-width: 0;
+// }
 
-.timeline>li:last-child {
-    margin-bottom: 0;
-}
+// .timeline>li.timeline-inverted>.timeline-panel:after {
+//     right: auto;
+//     left: -14px;
+//     border-right-width: 14px;
+//     border-left-width: 0;
+// }
 
-.timeline .timeline-heading h4 {
-    margin-top: 0;
-    color: inherit;
-}
+// .timeline>li:last-child {
+//     margin-bottom: 0;
+// }
 
-.timeline .timeline-heading h4.subheading {
-    text-transform: none;
-}
+// .timeline .timeline-heading h4 {
+//     margin-top: 0;
+//     color: inherit;
+// }
 
-.timeline .timeline-body>p,
-.timeline .timeline-body>ul {
-    margin-bottom: 0;
-}
+// .timeline .timeline-heading h4.subheading {
+//     text-transform: none;
+// }
+
+// .timeline .timeline-body>p,
+// .timeline .timeline-body>ul {
+//     margin-bottom: 0;
+// }
 
 @media(min-width:768px) {
     .timeline:before {
-        left: 50%;
+        left: 51%;
     }
 
     .timeline>li {
@@ -234,22 +222,15 @@
         margin-left: -85px;
     }
 
-    .timeline>li .timeline-image h4 {
-        margin-top: 40px;
-    }
+    // .timeline>li .timeline-image h4 {
+    //     margin-top: 40px;
+    // }
 
     .timeline>li.timeline-inverted>.timeline-panel {
         padding: 0 100px 20px 20px;
     }
 }
 
-.round_1 {
-  border: solid;
-  border-color: blue;
-  border-radius: 50%;
-  width: 70px;
-  height: 70px;
-}
 
 .mes_competences_1{
   display: flex;
@@ -264,12 +245,23 @@
 }
 
 .mes_hobbies, .me_contacter_marion, .mes_competences_marion{
-  padding-top: 30px;
+  padding-top: 50px;
   line-height:0.5;
+  padding-left: 40px;
 }
 
+.mon_parcours_marion {
+  padding-left: 40px;
+
+}
 .contact_infos_marion{
   padding-top: 20px;
   padding-bottom: 20px;
+  height: 250px;
+  background-color: gray;
+  width: 250px;
+  border-radius: 100%;
+  text-align: center;
+  padding-top: 90px;
 }
 

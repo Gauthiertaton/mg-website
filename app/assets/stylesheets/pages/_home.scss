@@ -3,6 +3,17 @@ body {
   background-color: white;
 }
 
+span {
+   background-image: linear-gradient( $yellow-span 0%, $yellow-span 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.3em;
+    background-position: 0 88%;
+}
+
+h5{
+font-size: 30px;
+}
+
 .banner_title_photo {
   display: flex;
   justify-content: space-around;
@@ -23,9 +34,9 @@ body {
   background-color: #F5E767;
   border: 1px solid #F5E767;
   padding: 8px 24px;
+  margin-top: 40px;
   border-radius: 50px;
   font-weight: lighter;
-
   color: white;
 }
 
@@ -38,11 +49,11 @@ body {
 }
 
 h2 {
-  color: #47939B;
+  color: #50AFBA;
 }
 
 h3 {
-  color: #47939B;
+  color: #50AFBA;
   font-size: 20px;
 }
 
@@ -69,7 +80,7 @@ h3 {
 
 .banner_title h2 {
   color: white;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 // partie 2
@@ -77,7 +88,20 @@ h3 {
 #notre_duo {
   padding-top: 80px;
   width: 100vw;
-  height: 100vh;
+  height: 130vh;
+}
+
+.notre_duo_texte{
+  width: 1000px;
+  padding-left: 30px;
+}
+
+.notre_demarche{
+  padding-top: 20px;
+}
+
+.notre_duo_texte_photo{
+  padding-top: 20px;
 }
 
 
@@ -98,8 +122,14 @@ h3 {
   width: 450px;
   text-align: center;
   padding-bottom: 50px;
-    h3, p{
+
+    h3{
       font-weight: bold;
+    }
+    h4{
+      font-weight: normal;
+      color: #50AFBA;
+      font-size: 16px;
     }
 }
 
@@ -143,10 +173,15 @@ h3 {
   text-align: center;
 }
 
+
+
 .cards_nos_services_1 {
   padding-top: 30px;
   display: flex;
   justify-content: space-between;
+      h3{
+        font-size: 15px;
+      }
 
 }
 
@@ -154,6 +189,9 @@ h3 {
   display: flex;
   justify-content: space-between;
   padding-top: 20px;
+  h3{
+        font-size: 15px;
+      }
 }
 
 .cards_nos_services_1, .cards_nos_services_2 {
@@ -178,6 +216,54 @@ h3 {
   height: 100vh;
 }
 
+.cards_projets{
+  display: flex;
+  justify-content: space-around;
+  padding-top: 30px;
+}
+
+.card-trip {
+  overflow: hidden;
+  background: white;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  width: 400px;
+  height: 350px;
+}
+
+.card-trip > img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip p {
+  font-size: 12px;
+  opacity: .7;
+  margin: 0;
+}
+
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
 //partie 6
 
 #contact_form{
@@ -186,3 +272,20 @@ h3 {
   height: 100vh;
 }
 
+.contact_form_title_text{
+  padding-top: 30px;
+  width: 50%;
+  text-align: center;
+}
+
+.contact_form_area{
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  padding-top: 40px;
+}
+
+.localisation{
+  text-align: center;
+  padding-top: 20px;
+}
